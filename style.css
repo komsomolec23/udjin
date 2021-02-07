@@ -1,0 +1,140 @@
+body {
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1, h2, h3, h4 {
+    font-family:'Crimson Pro' ;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 0.2rem;
+
+}
+
+
+.mainPage {
+    background-image: url(image/pexels-photo-4769486.jpeg);
+    width: 100%; 
+    height: 885px;
+}
+
+.navbar {
+    margin: 1rem 9rem;
+}
+
+.logoHead {
+    position: relative;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-style: cursive;
+}
+
+.navLogo {
+    font-size: 25px;
+    font-family: 'Crimson Pro';
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+
+}
+
+.nav_inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem 9rem;
+}
+
+.nav_item {
+    margin-left: 2rem;
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Crimson Pro';
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    box-shadow: black;
+}
+
+.nav_item:hover {
+    color: black;
+    border-bottom: 0.5px black solid;
+}
+
+.aboutMe {
+    position: relative;
+    margin: 7rem 18rem;
+}
+
+.photoMom{
+    border-radius: 0.4rem;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    float: right;
+    margin: 3rem 1rem;
+
+}
+
+.aboutMeText {
+    position: relative;
+    text-align: left;
+    margin-top: 200px 168px;
+}
+
+.aboutMeTextTitle {
+    text-align: left;
+    padding-left: 6rem;
+    padding-top: 7rem;
+}
+
+.aboutMeTextCont {
+    display: flex;
+    margin: 4rem 2rem 4rem 0;
+    padding-right: 15rem;
+    line-height: 2.5;
+    text-align: center;
+    padding-top: 3rem;
+    font-family:'Crimson Pro';
+    font-style: italic;
+    font-size: 20px;
+}
+
+.btnLog{
+    position: relative;
+    text-align: center;
+    margin-top: 20rem;
+}
+.btn {
+    
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 0.9rem;
+    font-size: 15px;
+    font-family: 'Crimson Pro';
+    text-transform: uppercase;
+}
+
+.btn:hover{
+
+    color: white;
+    background-color: black;
+}
+
+.MainFoot {
+    margin: 10rem 0 0;  
+    padding-top: 2rem;
+    background-image: url(image/dark.jpeg);
+    width: 100%;
+}
+
+.socialNav{
+    position: relative;
+    margin-left: 15rem;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    
+}
